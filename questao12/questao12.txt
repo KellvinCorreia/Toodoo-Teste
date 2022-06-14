@@ -1,0 +1,5 @@
+Analisando a estrutura CSS a seguir, qual cor prevalecerá no elemento HTML?
+
+#list .list-item { 
+color: green 
+} 

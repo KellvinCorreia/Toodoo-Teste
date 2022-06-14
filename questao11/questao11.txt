@@ -1,0 +1,3 @@
+Na chamada da função foi passado um nome não existente, portanto a função vai retornar erro de 'not defined'.
+
+P.S. Caso tenha sido um erro de digitação os valores da função retornará 28, 30 e 9.

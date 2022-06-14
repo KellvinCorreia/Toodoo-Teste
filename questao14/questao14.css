@@ -1,0 +1,48 @@
+:root {
+  --primary-blue: rgb(210, 234, 252);
+  --border-blue: rgb(41, 150, 231);
+}
+html,
+body {
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "aside main section"
+        "aside footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: var(--primary-blue);
+    border: 5px solid var(--border-blue);
+  
+  }
+
+aside {
+    grid-area: aside;
+    background-color: var(--primary-blue);
+    border: 5px solid var(--border-blue);
+  }
+
+main {
+    grid-area: main;
+    background-color: var(--primary-blue);
+    border: 5px solid var(--border-blue);
+  }
+
+section {
+    grid-area: section;
+    background-color: var(--primary-blue);
+    border: 5px solid var(--border-blue);
+  }
+
+footer {
+    grid-area: footer;
+    background-color: var(--primary-blue);
+    border: 5px solid var(--border-blue);
+  }
